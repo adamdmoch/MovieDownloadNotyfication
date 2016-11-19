@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/frameLayout1">
+    <LinearLayout
+        p1:orientation="vertical"
+        p1:layout_width="match_parent"
+        p1:layout_height="match_parent"
+        p1:id="@+id/linearLayout1"
+        p1:minWidth="25px"
+        p1:minHeight="25px">
+        <Button
+            p1:text="Check is Home Wifi"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/btnCheckWifi" />
+        <CheckBox
+            p1:text="Home Wifi"
+            p1:layout_width="match_parent"
+            p1:layout_height="62.8dp"
+            p1:id="@+id/chbxCheckWifi" />
+        <TableLayout
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/tableLayout1">          
+            <TableRow
+                p1:id="@+id/tableRow1">
+            </TableRow>
+            <TableRow
+                p1:id="@+id/tableRow2">
+            </TableRow>
+            <TableRow
+                p1:id="@+id/tableRow3">
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</FrameLayout>
