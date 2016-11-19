@@ -43,7 +43,7 @@ namespace AndroidApp
             Button button = FindViewById<Button>(Resource.Id.btnCheckWifi);
             CheckBox checkBox = FindViewById<CheckBox>(Resource.Id.chbxCheckWifi);
             checkBox.Enabled = false;
-
+            //komentarz próbnego checkina w git Hubie
             button.Click += ((object source, EventArgs e) => {
                 var connectivityManager = (WifiManager)GetSystemService(WifiService);
                 
